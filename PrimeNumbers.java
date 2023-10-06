@@ -6,7 +6,7 @@ public class Main {
 		long sr, er, cnt = 0; int flag; 
 		System.out.println("Enter starting string");
 		sr = sc.nextLong();
-		System.out.println("Enter ending range");
+		System.out.println("Enter the ending range");
 		er = sc.nextLong();
 		System.out.print("Prime numbers between "+sr+" and "+er+" are: ");
 		for(long i = sr; i <= er; i++) {
