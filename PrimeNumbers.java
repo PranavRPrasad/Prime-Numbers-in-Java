@@ -8,7 +8,7 @@ public class Main {
 		sr = sc.nextLong();
 		System.out.println("Enter the ending range");
 		er = sc.nextLong();
-		System.out.print("Prime numbers between "+sr+" and "+er+" are: ");
+		System.out.print("Prime numbers between the "+sr+" and "+er+" are: ");
 		for(long i = sr; i <= er; i++) {
 			if(i==0 || i==1)
 				continue;
