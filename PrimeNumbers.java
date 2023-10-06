@@ -4,7 +4,7 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		long sr, er, cnt = 0; int flag; 
-		System.out.println("Enter starting range");
+		System.out.println("Enter starting string");
 		sr = sc.nextLong();
 		System.out.println("Enter ending range");
 		er = sc.nextLong();
